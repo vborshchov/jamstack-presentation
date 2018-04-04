@@ -34,16 +34,6 @@
 				</section>
 				<section>
 					<h2>Topics</h2>
-					<section>
-						<ul>
-							<li>Headless CMS</li>
-							<ul>
-								<li>What</li>
-								<li>Why</li>
-								<li>Demo</li>
-							</ul>
-						</ul>
-					</section>
 
 					<section>
 						<ul>
@@ -56,13 +46,73 @@
 							</ul>
 						</ul>
 					</section>
+
+					<section>
+						<ul>
+							<li>Headless CMS</li>
+							<ul>
+								<li>What</li>
+								<li>Why</li>
+								<li>Demo</li>
+							</ul>
+						</ul>
+					</section>
 				</section>
+
+				<section>
+					<h4>Into</h4>
+					<section>
+
+						<h3>Classic CMS</h3>
+						<img src="images/wp.png"/>
+					</section>
+				</section>
+
+				<section>
+					<h3>Git-based CMS</h3>
+					<section>
+						<h4>What</h4>
+						<img src="images/ssg.png"/>
+						<p>With a git-based CMS you are pushing changes to git that then triggers a new build of your site.</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Why Git-based CMS</h2>
+
+					<ul>
+						<li>Full version control on all content out of the box.</li>
+						<li class="fragment">All content lives as normal text files so developers can use all the normal tools they use as a developer.</li>
+						<li class="fragment">Much easier to rollback.</li>
+						<li class="fragment">Is the most homogenous approach with the existing git-based workflow of most web-developers.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>When do not use Git-based CMS</h3>
+
+					<ul>
+						<li>Not a good solution if you want several apps or sites to pull content from the same CMS.</li>
+						<li>If you have tons of content, you would in some cases want a database instead.</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h2>Demo time</h2>
+
+					<p><a href="https://vborshchov.github.io/forestry-demo/" target="_blank">Github pages</a></p>
+				</section>
+
 
 				<section>
 					<h3>Headless CMS</h3>
 					<section>
+						<img src="images/Headless-CMS.jpg" alt="Headless CMS">
+					</section>
+					<section>
 						<h4>Into</h4>
-						<p>'Headless CMS' is also commonly known as 'JAMstack CMS' or 'Decoupled CMS'</p>
+						<p>'Headless CMS' is also commonly known as <br>'JAMstack CMS' or 'Decoupled CMS'</p>
 						<blockquote>
 							<p> JAMstack: noun \’jam-stak’\</p>
 							<p>Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.</p>
@@ -72,15 +122,11 @@
 
 					<section>
 						<h4>What</h4>
-						<p>Your project is built with the JAMstack if it meets three key criteria:</p>
-						<ul>
-							<li>JavaScript</li>
-							<li class="fragment">APIs</li>
-							<li class="fragment">Markup</li>
-						</ul>
+						<p>Basically the frontend component of a Headless CMS is decoupled from the actual serving of the website or app.</p>
 					</section>
 
 				</section>
+
 				<section>
 					<h2>Why</h2>
 
@@ -116,39 +162,13 @@
 				</section>
 
 				<section>
-					<h3>Git-based CMS</h3>
-					<section>
-						<h4>What</h4>
-						<p>With a git-based CMS you are pushing changes to git that then triggers a new build of your site.</p>
-					</section>
+					<h1>Questions?</h1>
 				</section>
 
 				<section>
-					<h2>Why Git-based CMS</h2>
-
-					<ul>
-						<li>Full version control on all content out of the box.</li>
-						<li class="fragment">All content lives as normal text files so developers can use all the normal tools they use as a developer.</li>
-						<li class="fragment">Much easier to rollback.</li>
-						<li class="fragment">Is the most homogenous approach with the existing git-based workflow of most web-developers.</li>
-					</ul>
+					<h1>Thank you</h1>
 				</section>
 
-				<section>
-					<h3>When do not use Git-based CMS</h3>
-
-					<ul>
-						<li>Not a good solution if you want several apps or sites to pull content from the same CMS.</li>
-						<li>If you have tons of content, you would in some cases want a database instead.</li>
-					</ul>
-				</section>
-
-
-				<section>
-					<h2>Demo time</h2>
-
-					<p><a href="https://vborshchov.github.io/forestry-demo/" target="_blank">Github pages</a></p>
-				</section>
 			</div>
 		</div>
 
@@ -167,7 +187,7 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
 				]
 			});
 		</script>
